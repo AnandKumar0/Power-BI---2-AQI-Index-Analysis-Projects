@@ -10,7 +10,7 @@
 
 This project demonstrates data visualization and geo-analytical dashboarding skills used by Data Analysts to monitor air quality trends across Indian states and cities. It replicates a real-world environmental monitoring scenario — tracking AQI severity, pollutant composition, and city-wise/state-wise air quality patterns on a single interactive Power BI page.
 
-![AQI_index_project](A-PBI- AQI Index Analysis.png
+![AQI_index_project](https://github.com/AnandKumar0/Power-BI---2-AQI-Index-Analysis-Projects/blob/main/A-PBI-%20AQI%20Index%20Analysis.png)
 
 The project covers the complete BI workflow: data modeling with a dedicated date table, DAX measure creation for dynamic titles and KPIs, and an interactive single-page dashboard with cascading Year / State / Area filters.
 
@@ -22,7 +22,7 @@ Build a relational model with a fact table (`day_wise_aqi_data`) containing stat
 **KPI Design**
 Surface headline air quality metrics for a selected state — current average AQI, maximum AQI recorded, primary pollutant, and AQI category — using dynamic DAX measures.
 
-**Geo-Spatial Analysis**
+**Location-wise Analysis**
 Plot AQI readings across India on a bubble map, sized by average AQI and color-coded by severity category, to spot regional pollution hotspots at a glance.
 
 **Trend Analysis**
@@ -30,16 +30,6 @@ Track how AQI moves over time (by year and month) using a dedicated date hierarc
 
 **Business Analysis**
 Answer real-world questions around which cities/areas have the worst air quality, how AQI severity is distributed, and which pollutants occur most frequently (individually or in combination).
-
-## Data Model
-
-| Table | Key Fields |
-|---|---|
-| `day_wise_aqi_data` (fact table) | `state`, `area`, `aqi_value`, `AQI_Category`, `prominent_pollutants` |
-| `Calendar_Table` (date dimension) | `Date` (with Year / Month / Day hierarchy) |
-| `All_Measure` (measures table) | `Avg_AQI`, `Primary_Pollutant`, `AQI_Category_KPI`, `Count_Of_Rows`, plus dynamic title measures (`KPI-Title`, `State_Map_Title`, `AQI_Level_Title`, `Title_For_Monthly_Charts`, `Title_for_city`, `Donut_Title`, `Pollutant_Title`, `Label`) |
-
-*(Field and measure names above are taken directly from the report's data model — paste your exact DAX formula bodies from the Power BI measure pane if you want them documented here too.)*
 
 ## Dashboard Structure
 
