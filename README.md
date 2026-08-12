@@ -10,7 +10,7 @@
 
 This project demonstrates data visualization and geo-analytical dashboarding skills used by Data Analysts to monitor air quality trends across Indian states and cities. It replicates a real-world environmental monitoring scenario — tracking AQI severity, pollutant composition, and city-wise/state-wise air quality patterns on a single interactive Power BI page.
 
-![AQI Index Project](images/aqi_dashboard_overview.png](https://github.com/AnandKumar0/Power-BI---2-AQI-Index-Analysis-Projects/blob/main/A-PBI-%20AQI%20Index%20Analysis.png)
+![AQI_index_project](A-PBI- AQI Index Analysis.png
 
 The project covers the complete BI workflow: data modeling with a dedicated date table, DAX measure creation for dynamic titles and KPIs, and an interactive single-page dashboard with cascading Year / State / Area filters.
 
